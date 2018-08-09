@@ -12,7 +12,7 @@ class SignupForm extends Component {
 
         return (
             <form onSubmit={handleSubmit} className="sign-up-form">
-               <FormTitle className="sign-up-form__title" text="New User"/> 
+               <FormTitle className="sign-up-form__title" text="New User" /> 
 
                <Field 
                className="sign-up-form__fullname"
